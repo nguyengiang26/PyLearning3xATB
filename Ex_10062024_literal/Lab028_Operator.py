@@ -25,12 +25,13 @@ print(not is_married)
 x = ["Python", "Java"]
 y = ["Python", "Java"]
 print(x is y) # False
+print(x == y) #
 
 # Is - How? - Conditions
-x = 100
-y = 200
-print(x is y) # False
-print(x is not y) # True
-print(x is 100) # True
-print(x is not 100) # False
-print(y is 200) # True
+# x = 100
+# y = 200
+# print(x is y) # False
+# print(x is not y) # True
+# print(x is 100) # True
+# print(x is not 100) # False
+# print(y is 200) # True
