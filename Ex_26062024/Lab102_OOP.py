@@ -7,4 +7,7 @@
 #   Class variables
 #   Methods
 
-#   Inheritance
+#   Inheritance 
+#   Encapsulation: __private, _protected, public
+#   Polymorphism: Method Overriding
+#   Abstract Class: abc, abstractmethod
