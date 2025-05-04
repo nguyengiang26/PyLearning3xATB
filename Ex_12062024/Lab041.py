@@ -7,4 +7,9 @@
 #
 
 x = list(range(1, 10, 3))
-print(x)
+# print(x)
+
+x = "hello"
+
+for i in x:
+    print(f"Hello {i}")

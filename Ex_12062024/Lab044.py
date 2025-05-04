@@ -1,6 +1,6 @@
-# strA = "HowKteam"
-# strA = strA.replace("K", "J")
-# print(strA)
+strA = "HowKteam"
+strA = strA.replace("K", "J")
+print(strA)
 
 this_list = ["apple", "mango", "orange"]
 this_list[0] = "banana"
@@ -12,4 +12,4 @@ str1 = "Hello"
 # print(str1+str2)
 
 
-this_list = this_list.count()
+# this_list = this_list.count()
