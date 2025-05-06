@@ -1,0 +1,1 @@
+    print("The total number of words in the file is:", len(words))
