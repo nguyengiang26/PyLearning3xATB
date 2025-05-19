@@ -4,7 +4,7 @@
 # # Điều này giúp giảm độ phức tạp và tăng tính dễ hiểu của mã nguồn.
 # # Abtraction có thể được thực hiện thông qua các lớp trừu tượng (abstract classes) và các phương thức trừu tượng (abstract methods).
 
-from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod # from abc folder import ABC class, abdtractmethod method
 
 class Animal(ABC):
     def __init__(self, name):

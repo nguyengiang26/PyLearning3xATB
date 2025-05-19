@@ -1,4 +1,5 @@
-# Exception
-# an event that occur 
-# Syntax error
-# Indentation ..
+# Exception là run time error
+
+print("Start")
+10/0
+print("End of program")
