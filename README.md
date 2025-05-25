@@ -99,11 +99,26 @@ Below are the key topics to learn in Python, organized as bullet points for easy
 - To run specific testcase 
   - pytest ex02_July/22072024/test_Lab181.py
 - To run specific testcase with pattern
-  - pytest -k "18"
+  Ex: 
+  pytest -k add	                | Chạy test có từ "add" trong tên
+  pytest -k "add or sub"	      | Chạy test có từ "add" hoặc "sub"
+  pytest -k "not multiply"	    | Bỏ qua test có từ "multiply"
+  pytest -k "abc" test_file.py	| Lọc theo tên trong file cụ thể
 - To run a specific marked Testcase 
   - Add a annotation @pytest.mark.regression
   - pytest -m "regression" ex02_July/22072024/test_Lab182.py
-
+  - Ex: 
+    Chạy test có marker smoke	          | pytest -m "smoke"
+    Chạy test có marker regression	    | pytest -m "regression"
+    Chạy test có cả hai marker	        | pytest -m "smoke and regression"
+    Chạy test có smoke hoặc regression	| pytest -m "smoke or regression"
+    Chạy test không có smoke	          | pytest -m "not smoke"
+  - Remove warning
+    Define marker in pytest.ini file in root folder
+    [pytest]
+    markers =
+       smoke: marks smoke tests
+       regression: marks regression tests
 
 ### How to see the Report of the PyTest Testcases?
 - Make sure that allure commandline is installed

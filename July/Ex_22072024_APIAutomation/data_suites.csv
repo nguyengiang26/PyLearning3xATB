@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This test verifies that the subtraction of 0 from 0 equals 0","0","TC#1 - Verify 0 - 0 =0","July.Ex_22072024_APIAutomation","Sun May 25 23:55:50 ICT 2025","passed","Sun May 25 23:55:50 ICT 2025","","test_Lab165","",""
+"This test verifies that the subtraction of 2 from 2 equals 0","0","TC#1 - Verify 2 - 2 =0","July.Ex_22072024_APIAutomation","Sun May 25 23:55:50 ICT 2025","passed","Sun May 25 23:55:50 ICT 2025","","test_Lab165","",""
