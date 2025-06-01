@@ -19,3 +19,6 @@ __pycache__/
 # Pytest cache
 .pytest_cache/
 __pycache__
+
+
+allure_result
