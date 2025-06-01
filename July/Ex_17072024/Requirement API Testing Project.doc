@@ -3,7 +3,28 @@ Objective
 API Testing of the Opencart.com for the module Registration and Login module
 
 Registration
+- URL
+- Payload
+- HTTP method
+- Status
+- What to verify
+- Request body
+- Header
+- Auth
+- Cookie
+- Token
 
 
 Login
+- URL
+- Payload
+- HTTP method
+- Status
+- What to verify
+- Request body
+- Header
+- Auth
+- Cookie
+- Token
+
 

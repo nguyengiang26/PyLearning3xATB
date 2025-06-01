@@ -125,6 +125,7 @@ Below are the key topics to learn in Python, organized as bullet points for easy
 - Download the Node JS
 - node -v
 - npm install -g npm allure-commandline
+- Install Java & set environement path
 - Verify that allure -> options
 - Run your Pytestcase - pytest ex02_July/22072024/test_Lab183.py --alluredir=allure_result
 - allure serve allure_result
@@ -134,7 +135,38 @@ Below are the key topics to learn in Python, organized as bullet points for easy
 - pytest ex02_July/24072024/test_Lab184.py --alluredir=allure_result
 - -s -help you to print the details by print command
 
+### API Automation Framework (Setup)
+1. What is the Framework?
+  - structure that provide a foundation for SW application/test automation
+  - Key characteristics: 
+    + provide structure for organizing code & resources.
+    + profer folder structure to maintain the testcase
+    + They follow best practices and design patterns
+    + scalability & flexibility
 
+
+2. Type of Framework in Automation Testing
+  - Linear Automation Framework: 
+    + Record & Playback: simple manner, much maintain, duplicate code
+    + Ex: Find a API TC -> Create Booking - create_booking.py -> run it
+  - Modular Driven Framework
+    + divide TS into small module
+    + easier maintainance, scability
+    + eCom-API -> Registration -> Login -> Add to Cart -> Payment-> Order fullfilment-> Confirmation -> Shipping -> Refunds/Cancel
+  - Data-Driven Testing Framework:
+    + input single test script that execute test for all test data from a table and expect the test output in the same table
+    + require programming, manage test data
+  - Key-word driven Framework
+
+  - <b><span style="color: red;">Behaviour Driven Developement: (BDD) Framework</b><span>
+    + Given - When - Then
+    + Human syntax
+    + Eg: Cucumber
+  - <b><span style="color: red;">Hybrid Testing Framework(Mixture of Modular, DDT, Keyword)</b><span>
+
+3. Folder Structure of Framework
+
+4. Running it via Jenkins + GIT (CI/CD)
 
 
 

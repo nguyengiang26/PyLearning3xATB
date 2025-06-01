@@ -1,6 +1,9 @@
 # Virtual environment
 .venv/
 
+# .env file
+.env
+
 # Python cache files
 __pycache__/
 
@@ -15,3 +18,4 @@ __pycache__/
 
 # Pytest cache
 .pytest_cache/
+__pycache__

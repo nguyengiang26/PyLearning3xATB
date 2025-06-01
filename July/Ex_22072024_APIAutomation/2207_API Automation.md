@@ -19,4 +19,12 @@ PyTest
   + Help you to verify expected result == Acctual result
 - Manage your Test case
 - Support many library/module
-- Install PyTest
+- Install PyTest - pip install pytest
+- Create your 1st test - test_name.py, def test_
+- Run multiple test: -k, -m
+- Assert that a certain exception is raiissed: asser ER == AR
+
+REQUEST
+- Introduction
+- Python request module
+- The GET request
